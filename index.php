@@ -59,7 +59,7 @@
              $host = $nazwa;
              $port = '80';
              $fp = @fsockopen($host, $port, $errno, $errstr, 30);
-          
+          //v1
             if ($fp) { 
                 $status = 'OK'; 
                 $dif = '-';
